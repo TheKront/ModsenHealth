@@ -28,7 +28,7 @@ body {
 }
 .nav_menu {
   flex: 0 1 auto;
-  margin: 0px 50px 0px 150px;
+  margin: auto;
 }
 .nav_menu_ul {
   display: flex;
@@ -159,7 +159,8 @@ body {
   width: 70%;
 }
 .email {
-  position: relative;
+  position: absolute;
+  top: 400px;
   width: 350px;
   height: 40px;
   border: 0;
@@ -173,7 +174,7 @@ body {
   background-color: white;
 }
 .email_sent_btn {
-  position: relative;
+  position: absolute;
   color: white;
   border-bottom-left-radius: 20% 95%;
   border-bottom-right-radius: 20% 95%;
@@ -184,12 +185,13 @@ body {
   border: 0;
   width: 140px;
   height: 40px;
-  right: 0px;
+  top: 405px;
+  left: 330px;
 }
 .stats_container {
   position: absolute;
   width: 100%;
-  top: 60%;
+  top: 70%;
   left: 0;
   z-index: 50;
   opacity: 0.8;
