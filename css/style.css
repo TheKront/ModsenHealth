@@ -5,7 +5,7 @@ body {
   position: absolute;
   width: auto;
   top: 10%;
-  left: 100px;
+
   z-index: 50;
 }
 .header_container {
@@ -46,7 +46,7 @@ body {
   position: relative;
   text-decoration: none;
 }
-.nav_menu_item:first-child{
+.nav_menu_item:first-child {
   margin-left: 300px;
 }
 .nav_menu_item_link {
@@ -63,7 +63,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0px 0px 0px 150px;
+  margin: 0px 0px 0px 350px;
   padding: 5px 0px 0px 0px;
   position: relative;
 }
@@ -250,4 +250,27 @@ body {
   padding: 5px 30px;
   position: relative;
   text-decoration: none;
+}
+
+@media (max-width: 1600px) {
+  .nav_menu_item_log {
+    margin: 0px 0px 0px 150px;
+  }
+}
+@media (max-width: 1280px) {
+  .nav_menu_item_log {
+    margin: 0px 0px 0px 100px;
+  }
+  .nav_menu_item:first-child {
+    margin-left: 50px;
+  }
+  .header {
+    left: 40px;
+  }
+  .topic {
+    left: 40px;
+  }
+  .stats_container {
+    left: 40px;
+  }
 }
