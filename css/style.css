@@ -5,7 +5,6 @@ body {
   position: absolute;
   width: auto;
   top: 10%;
-
   z-index: 50;
 }
 .header_container {
@@ -273,4 +272,99 @@ body {
   .stats_container {
     left: 40px;
   }
+}
+@media (max-width: 1024px) {
+  .nav_menu_item_log {
+    margin: 0px 0px 0px 40px;
+    padding-top: 0px;
+  }
+  .nav_menu_item_reg {
+    padding-top: 0px;
+  }
+  .nav_menu_item {
+    margin-left: 5px;
+  }
+  .nav_menu_item:first-child {
+    margin-left: 0px;
+  }
+  .img_bell {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .header {
+    left: 10px;
+  }
+  .topic {
+    left: 10px;
+    width: 50%;
+  }
+  .stats_container {
+    left: 10px;
+    top: 70%;
+  }
+  .wind_logo {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .nav_menu {
+    display: none;
+  }
+  .header {
+    top: 2%;
+    left: 5px;
+  }
+  .wind_logo {
+    padding-left: 20px;
+  }
+  .image_container {
+    max-width: auto;
+    top: -100px;
+    left: 130px;
+  }
+  .topic {
+    width: 95%;
+    top: 113%;
+    left: 5px;
+  }
+  .stats_container {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .nav_menu {
+    display: none;
+  }
+  .header {
+    top: 2%;
+    left: 0px;
+  }
+  .wind_logo {
+    padding-left: 20px;
+  }
+  .image_container {
+    max-width: auto;
+    top: -100px;
+    left: 360px;
+  }
+  .topic {
+    width: 110%;
+    top: 113%;
+    left: 0px;
+    padding-left: 20px;
+  }
+  .advertisement {
+    width: 100%;
+  }
+  .email {
+    top: 400px;
+    width: 350px;
+  }
+  .email_sent_btn {
+    top: 405px;
+    left: 300px;
+  }
+  .stats_container {
+    display: none;
+  }  
 }
