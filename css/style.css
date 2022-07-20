@@ -250,10 +250,20 @@ body {
   position: relative;
   text-decoration: none;
 }
-
+@media (max-width: 1920px) {
+  .wind_logo {
+    margin-left: 100px;
+  }
+}
 @media (max-width: 1600px) {
   .nav_menu_item_log {
     margin: 0px 0px 0px 150px;
+  }
+  .wind_logo {
+    margin-left: 100px;
+  }
+  .nav_menu_item:first-child {
+    margin-left: 200px;
   }
 }
 @media (max-width: 1280px) {
@@ -262,6 +272,9 @@ body {
   }
   .nav_menu_item:first-child {
     margin-left: 50px;
+  }
+  .wind_logo {
+    margin-left: 10px;
   }
   .header {
     left: 40px;
@@ -310,6 +323,9 @@ body {
   .nav_menu {
     display: none;
   }
+  .wind_logo {
+    padding-left: 50px;
+  }
   .header {
     top: 2%;
     left: 5px;
@@ -334,6 +350,9 @@ body {
 @media (max-width: 400px) {
   .nav_menu {
     display: none;
+  }
+  .wind_logo {
+    padding-left: 50px;
   }
   .header {
     top: 2%;
@@ -366,5 +385,5 @@ body {
   }
   .stats_container {
     display: none;
-  }  
+  }
 }
